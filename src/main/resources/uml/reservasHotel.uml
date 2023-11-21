@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="__TxSwHzDEe6aI8y8P0zMsA" name="Hotel_V0">
+    <packagedElement xmi:type="uml:Package" xmi:id="_a6saIIJkEe6QdoGXmx4hFA" name="org.iesalandalus.programacion.reservashotel">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VLWcQIJlEe6QdoGXmx4hFA" name="vista">
+        <ownedComment xmi:id="_8V70sILOEe68rtivUF8J7g" annotatedElement="_ROj2kIJlEe6QdoGXmx4hFA">
+          <body>-mensajeAMostrar: String;&#xD;
+-----------------------------------------&#xD;
+-Opcion(mensajeAMostrar: String);&#xD;
++toString(): String;&#xD;
+&#xD;
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_ROj2kIJlEe6QdoGXmx4hFA" name="Opcion" visibility="public">
+          <ownedAttribute xmi:id="_RPIeUIJlEe6QdoGXmx4hFA" name="mensajeAMostrar" visibility="private" isUnique="false">
+            <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_Oz1uYHzEEe6aI8y8P0zMsA"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_RPMIsIJlEe6QdoGXmx4hFA" name="Opcion" visibility="private">
+            <ownedParameter xmi:id="_RPS2YIJlEe6QdoGXmx4hFA" name="mensajeAMostrar">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_Oz1uYHzEEe6aI8y8P0zMsA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RPUrkIJlEe6QdoGXmx4hFA" name="toString" visibility="public">
+            <ownedParameter xmi:id="_RPWgwIJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_Oz1uYHzEEe6aI8y8P0zMsA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedLiteral xmi:id="_ROm54IJlEe6QdoGXmx4hFA" name="SALIR">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_ROng8IJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Salir&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_ROpWIIJlEe6QdoGXmx4hFA" name="INSERTAR_HUESPED">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_ROqkQIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Insertar Huesped&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_ROryYIJlEe6QdoGXmx4hFA" name="BUSCAR_HUESPED">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_ROsZcIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Buscar Huesped&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_ROuOoIJlEe6QdoGXmx4hFA" name="BORRAR_HUESPED">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_ROxR8IJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Borrar Huesped&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RO08UIJlEe6QdoGXmx4hFA" name="MOSTRAR_HUESPEDES">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RO1jYIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Mostar Huéspedes&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RO2xgIJlEe6QdoGXmx4hFA" name="INSERTAR_HABITACION">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RO3YkIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Insertar Habitación&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RO8REIJlEe6QdoGXmx4hFA" name="BUSCAR_HABITACION">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RO84IIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Buscar Habitación&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RO9fMIJlEe6QdoGXmx4hFA" name="BORRAR_HABITACION">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RO-GQIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Borrar Habitación&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RO-GQYJlEe6QdoGXmx4hFA" name="MOSTRAR_HABITACIONES">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RO-tUIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Mostrar Habitaciones&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RO_UYIJlEe6QdoGXmx4hFA" name="INSERTAR_RESERVA">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RPAigIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Insertar Reserva&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RPBwoIJlEe6QdoGXmx4hFA" name="ANULAR_RESERVA">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RPC-wIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Anular Reserva&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RPDl0IJlEe6QdoGXmx4hFA" name="MOSTRAR_RESERVAS">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RPDl0YJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Mostrar Reservas&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:id="_RPFbAIJlEe6QdoGXmx4hFA" name="CONSULTAR_DISPONIBILIDAD">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RPGpIIJlEe6QdoGXmx4hFA" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Consultar Disponibilidad&quot;</body>
+            </specification>
+          </ownedLiteral>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RHrLcIJlEe6QdoGXmx4hFA" name="Consola" visibility="public">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RHygMIJlEe6QdoGXmx4hFA" name="Consola" specification="_RHrygIJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+//Evito que se cree el constructor por defecto&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RHzHQYJlEe6QdoGXmx4hFA" name="mostrarMenu" specification="_RHzHQIJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    System.out.println(&quot;Gesti�n de Hoteles IES Al-�ndalus&quot;);&#xD;
+    for (Opcion opcion : Opcion.values()) {&#xD;
+        System.out.println(opcion);&#xD;
+    }&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RH0VYIJlEe6QdoGXmx4hFA" name="elegirOpcion" specification="_RHzHQoJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    int ordinalOpcion;&#xD;
+    do {&#xD;
+        System.out.println(&quot;\nElige una opci�n: &quot;);&#xD;
+        ordinalOpcion = Entrada.entero();&#xD;
+    } while (ordinalOpcion &lt; 0 || ordinalOpcion > Opcion.values().length);&#xD;
+    return Opcion.values()[ordinalOpcion];&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RH3YsIJlEe6QdoGXmx4hFA" name="leerHuesped" specification="_RH0VYYJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    String nombre, correo, telefono, dni;&#xD;
+    LocalDate fechaNacimiento = null;&#xD;
+    do {&#xD;
+        System.out.print(&quot;Introduce el nombre del huesped: &quot;);&#xD;
+        nombre = Entrada.cadena();&#xD;
+    } while (nombre.isEmpty());&#xD;
+    do {&#xD;
+        System.out.print(&quot;Introduce el dni del huesped: &quot;);&#xD;
+        dni = Entrada.cadena();&#xD;
+    } while (dni.isEmpty());&#xD;
+    do {&#xD;
+        System.out.print(&quot;Introduce el tel�fono del huesped: &quot;);&#xD;
+        telefono = Entrada.cadena();&#xD;
+    } while (telefono.isEmpty());&#xD;
+    do {&#xD;
+        System.out.print(&quot;Introduce el correo del huesped: &quot;);&#xD;
+        correo = Entrada.cadena();&#xD;
+    } while (correo.isEmpty());&#xD;
+    fechaNacimiento = leerFecha(&quot;Introduce la fecha nacimiento del hu�sped (dd/mm/aaaa): &quot;);&#xD;
+    return new Huesped(nombre, dni, correo, telefono, fechaNacimiento);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RH4m0IJlEe6QdoGXmx4hFA" name="getHuespedPorDni" specification="_RH3YsYJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    String dni;&#xD;
+    do {&#xD;
+        System.out.print(&quot;Introduce el dni del huesped: &quot;);&#xD;
+        dni = Entrada.cadena();&#xD;
+    } while (dni.isEmpty());&#xD;
+    return new Huesped(&quot;Sky&quot;, dni, &quot;sky@patrulla.org&quot;, &quot;950121212&quot;, LocalDate.of(2000, 10, 10));&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RH84QIJlEe6QdoGXmx4hFA" name="leerFecha" specification="_RH4m0YJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    LocalDate fechaNacimiento = null;&#xD;
+    do {&#xD;
+        //System.out.print(&quot;Introduce la fecha nacimiento del hu?sped (dd/mm/aaaa): &quot;);&#xD;
+        System.out.println(mensaje);&#xD;
+        try {&#xD;
+            fechaNacimiento = LocalDate.parse(Entrada.cadena(), DateTimeFormatter.ofPattern(Huesped.FORMATO_FECHA));&#xD;
+        } catch (DateTimeParseException e) {&#xD;
+            fechaNacimiento = null;&#xD;
+        }&#xD;
+    } while (fechaNacimiento == null);&#xD;
+    return fechaNacimiento;&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RH_7kYJlEe6QdoGXmx4hFA" name="leerHabitacion" specification="_RH9fUIJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    int planta, puerta;&#xD;
+    double precio;&#xD;
+    String descripcion;&#xD;
+    TipoHabitacion tipoHabitacion;&#xD;
+    System.out.print(&quot;Introduce el n�mero de planta de la habitaci�n (&quot; + Habitacion.MIN_NUMERO_PLANTA + &quot;-&quot; + Habitacion.MAX_NUMERO_PLANTA + &quot;): &quot;);&#xD;
+    planta = Entrada.entero();&#xD;
+    System.out.print(&quot;Introduce el n�mero de puerta de la habitaci�n (&quot; + Habitacion.MIN_NUMERO_PUERTA + &quot;-&quot; + Habitacion.MAX_NUMERO_PUERTA + &quot;): &quot;);&#xD;
+    puerta = Entrada.entero();&#xD;
+    tipoHabitacion = leerTipoHabitacion();&#xD;
+    System.out.print(&quot;Introduce el precio de la habitaci�n (&quot; + Habitacion.MIN_PRECIO_HABITACION + &quot;-&quot; + Habitacion.MAX_PRECIO_HABITACION + &quot;): &quot;);&#xD;
+    precio = Entrada.realDoble();&#xD;
+    do {&#xD;
+        System.out.print(&quot;Introduce la descripci�n de la habitaci�n: &quot;);&#xD;
+        descripcion = Entrada.cadena();&#xD;
+    } while (descripcion.isEmpty());&#xD;
+    return new Habitacion(planta, puerta, precio, tipoHabitacion, descripcion);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RIBJsIJlEe6QdoGXmx4hFA" name="leerHabitacionPorIdentificador" specification="_RIAioIJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    int puerta, planta;&#xD;
+    System.out.print(&quot;Introduce el n�mero de planta de la habitaci�n: &quot;);&#xD;
+    planta = Entrada.entero();&#xD;
+    System.out.print(&quot;Introduce el n�mero de puerta de la habitaci�n: &quot;);&#xD;
+    puerta = Entrada.entero();&#xD;
+    return new Habitacion(planta, puerta, 40, TipoHabitacion.SIMPLE, &quot;Habitaci�n ficticia&quot;);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RIENAYJlEe6QdoGXmx4hFA" name="leerTipoHabitacion" specification="_RIBwwIJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    int ordinalTipoHabitacion;&#xD;
+    System.out.println(&quot;Tipo de Habitaci�n hoteles IES Al-�ndalus&quot;);&#xD;
+    for (TipoHabitacion tipo : TipoHabitacion.values()) {&#xD;
+        System.out.println(tipo);&#xD;
+    }&#xD;
+    do {&#xD;
+        System.out.println(&quot;\nElige el tipo de habitaci�n: &quot;);&#xD;
+        ordinalTipoHabitacion = Entrada.entero();&#xD;
+    } while (ordinalTipoHabitacion &lt; 0 || ordinalTipoHabitacion > TipoHabitacion.values().length);&#xD;
+    return TipoHabitacion.values()[ordinalTipoHabitacion];&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RILhwIJlEe6QdoGXmx4hFA" name="leerRegimen" specification="_RIE0EIJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    int ordinalRegimen;&#xD;
+    System.out.println(&quot;Tipo de r�gimenes de los hoteles IES Al-�ndalus&quot;);&#xD;
+    for (Regimen regimen : Regimen.values()) {&#xD;
+        System.out.println(regimen);&#xD;
+    }&#xD;
+    do {&#xD;
+        System.out.println(&quot;\nElige el tipo de regimen: &quot;);&#xD;
+        ordinalRegimen = Entrada.entero();&#xD;
+    } while (ordinalRegimen &lt; 0 || ordinalRegimen > Regimen.values().length);&#xD;
+    return Regimen.values()[ordinalRegimen];&#xD;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RIS2gIJlEe6QdoGXmx4hFA" name="leerReserva" specification="_RIMI0IJlEe6QdoGXmx4hFA">
+            <language>JAVA</language>
+            <body>&#xD;
+    int numeroPersonasReserva;&#xD;
+    Huesped huesped;&#xD;
+    Habitacion habitacion;&#xD;
+    Regimen regimen;&#xD;
+    LocalDate fechaInicioReserva, fechaFinReserva;&#xD;
+    huesped = getHuespedPorDni();&#xD;
+    //habitacion=getHabitacionPorIdentificador();&#xD;
+    regimen = leerRegimen();&#xD;
+    fechaInicioReserva = leerFecha(&quot;Introduce la fecha de inicio de la reserva (dd/mm/aaaa): &quot;);&#xD;
+    fechaFinReserva = leerFecha(&quot;Introduce la fecha de fin de la reserva (dd/mm/aaaa): &quot;);&#xD;
+    System.out.print(&quot;Introduce el n�mero de personas que conforman la reserva: &quot;);&#xD;
+    numeroPersonasReserva = Entrada.entero();&#xD;
+    return null;&#xD;
+//return new Reserva(huesped, regimen,fechaInicioReserva,fechaFinReserva,numeroPersonasReserva);&#xD;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_RHrygIJlEe6QdoGXmx4hFA" name="Consola" visibility="private" method="_RHygMIJlEe6QdoGXmx4hFA"/>
+          <ownedOperation xmi:id="_RHzHQIJlEe6QdoGXmx4hFA" name="mostrarMenu" visibility="public" isStatic="true" method="_RHzHQYJlEe6QdoGXmx4hFA"/>
+          <ownedOperation xmi:id="_RHzHQoJlEe6QdoGXmx4hFA" name="elegirOpcion" visibility="public" isStatic="true" method="_RH0VYIJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RHzuUYJlEe6QdoGXmx4hFA" type="_ROj2kIJlEe6QdoGXmx4hFA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RH0VYYJlEe6QdoGXmx4hFA" name="leerHuesped" visibility="public" isStatic="true" method="_RH3YsIJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RH2xoYJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_RH08cIJlEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RH3YsYJlEe6QdoGXmx4hFA" name="getHuespedPorDni" visibility="public" isStatic="true" method="_RH4m0IJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RH3_wIJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_RH08cIJlEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RH4m0YJlEe6QdoGXmx4hFA" name="leerFecha" visibility="public" isStatic="true" method="_RH84QIJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RH5N4IJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_sLa0sIJcEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_RH7DEIJlEe6QdoGXmx4hFA" name="mensaje">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_Oz1uYHzEEe6aI8y8P0zMsA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RH9fUIJlEe6QdoGXmx4hFA" name="leerHabitacion" visibility="public" isStatic="true" method="_RH_7kYJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RH_7kIJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_RH9fUYJlEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RIAioIJlEe6QdoGXmx4hFA" name="leerHabitacionPorIdentificador" visibility="public" isStatic="true" method="_RIBJsIJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RIAioYJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_RH9fUYJlEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RIBwwIJlEe6QdoGXmx4hFA" name="leerTipoHabitacion" visibility="public" isStatic="true" method="_RIENAYJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RIENAIJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_RIBwwYJlEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RIE0EIJlEe6QdoGXmx4hFA" name="leerRegimen" visibility="public" isStatic="true" method="_RILhwIJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RIK6sIJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_RIE0EYJlEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_RIMI0IJlEe6QdoGXmx4hFA" name="leerReserva" visibility="public" isStatic="true" method="_RIS2gIJlEe6QdoGXmx4hFA">
+            <ownedParameter xmi:id="_RISPcIJlEe6QdoGXmx4hFA" direction="return">
+              <type xmi:type="uml:Class" href="../../../../../Hotel_V0/Hotel_V0.uml#_RIMI0YJlEe6QdoGXmx4hFA"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rOHv4IJlEe6QdoGXmx4hFA" name="negocio"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_uvJmoIJlEe6QdoGXmx4hFA" name="dominio">
+        <ownedComment xmi:id="_v0QWcILGEe68rtivUF8J7g">
+          <annotatedElement xmi:type="uml:Enumeration" href="../../../../../Hotel_V0/Hotel_V0.uml#_6tSMkIJlEe6QdoGXmx4hFA"/>
+          <body>- descripcion: String;&#xD;
+- numeroMaximoPersonas: int;&#xD;
+-----------------------------------------------------------------------------------------------&#xD;
+- TipoHabitacion(descripcion: String, numeroMaximoPersonas: int);&#xD;
++ getNumeroMaximoPersonas(): int;&#xD;
++ toString(): String;</body>
+        </ownedComment>
+        <ownedComment xmi:id="_0StpUILHEe68rtivUF8J7g">
+          <annotatedElement xmi:type="uml:Enumeration" href="../../../../../Hotel_V0/Hotel_V0.uml#_6kLT4IJlEe6QdoGXmx4hFA"/>
+          <body>- descripcion: String;&#xD;
+- incrementoPrecio: double;&#xD;
+&#xD;
+- Regimen(descripcion: String, incrementoPrecio: int);&#xD;
++getIncrementoPrecio(): double;&#xD;
++toString(): String;&#xD;
+</body>
+        </ownedComment>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="__aeXsHzDEe6aI8y8P0zMsA">
+      <eAnnotations xmi:id="__aj3QHzDEe6aI8y8P0zMsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_OvR-gHzEEe6aI8y8P0zMsA">
+      <eAnnotations xmi:id="_OvXeEHzEEe6aI8y8P0zMsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_Ov4bcHzEEe6aI8y8P0zMsA">
+      <eAnnotations xmi:id="_Ov6QoHzEEe6aI8y8P0zMsA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Create xmi:id="_-s-xUILeEe68rtivUF8J7g" base_BehavioralFeature="_RPMIsIJlEe6QdoGXmx4hFA"/>
+  <standard:Create xmi:id="_-tBNkoLeEe68rtivUF8J7g" base_BehavioralFeature="_RHrygIJlEe6QdoGXmx4hFA"/>
+</xmi:XMI>
