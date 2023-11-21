@@ -15,7 +15,7 @@ el **checkout** así como el **precio** de su alojamiento, que será un campo ca
 En este repositorio de GitHub hay un esqueleto de proyecto **gradle** con las dependencias necesarias del proyecto y que ya lleva incluidos todos los test necesarios que el programa debe pasar.
 Para ello te muestro un diagrama de clases para el mismo y poco a poco te iré explicando los diferentes pasos a realizar:
 
-![](C:\Users\arubi\IdeaProjects\UT2\ReservasHotel_v0\src\main\resources\uml\reservasHotel.png)
+![](src\main\resources\uml\reservasHotel.png)
 
 
 #### Primeros Pasos
